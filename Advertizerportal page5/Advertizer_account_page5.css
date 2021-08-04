@@ -1,0 +1,894 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5ECF5;
+}
+.navbar{
+    position: absolute;
+    background: #F0F1F3;
+    width: 100%;
+    height: 10%;
+    padding: 0px;
+    right: 0px;
+top: 0px;
+}
+
+.logo{
+    position: absolute;
+    top: 15%;
+    left: 7.7%;
+    
+}
+
+.form-inline{
+    position: absolute;
+width: 35.4%;
+height: 45.7%;
+left: 29.14%;
+top: 27.14%;
+
+padding: 0%;
+border: 1px solid #BBBBBB;
+box-sizing: border-box;
+}
+
+.dropdown-toggle{
+    background-color: blue;
+}
+
+.form-inline .btn-primary{
+    background: #E0E0E0;
+    border: none;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 12.8%;
+    color: #233A6C;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.input-search{
+    
+    position: absolute;
+width: 80%;
+height: 100%;
+left: 13%;
+top: 0%;
+padding: 2px;
+font-family: cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+border: none;
+/* line-height: 16px; */
+/* identical to box height */
+}
+
+.btn-secondary{
+    background-color: #FFB400;
+    border-radius: 0px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 7%;
+    height: 100%;
+    border: none;
+}
+
+.btn-secondary .fa-search{
+ color:  #233A6C;
+}
+
+.navbar .Refer a{
+    position: absolute;
+    left: 66.64%;
+    top: 37.5%;
+    width: 7.42%;
+    height: 30.56%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5px;
+    line-height: 19px;
+    color: #595959;
+
+}
+
+.navbar .vertical-line1{
+    border-right: 1px solid rgba(89, 89, 89, 0.5);
+    position: absolute;
+    left: 74.5%;
+    top: 37.5%;
+    bottom: 37.5%;    
+}
+
+.navbar .Help a{
+    position: absolute;
+    left: 75.45%;
+    top: 37.5%;
+    width: 10.42%;
+    height: 30.56%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.5px;
+    line-height: 19px;
+    color: #595959;
+
+}
+
+.navbar .vertical-line2{
+    border-right: 1px solid rgba(89, 89, 89, 0.5);
+    position: absolute;
+    left: 84.45%;
+    top: 37.5%;
+    bottom: 37.5%; 
+}
+
+.navbar .Picture{
+    position: absolute;
+    left: 86%;
+    right: 10%;
+    top: 10%;
+    width: 4%;
+    height: 80%;
+    border-radius: 50%;
+  overflow: hidden;
+}
+
+.navbar .fa-angle-down{
+    position: absolute;
+    width: 8px;
+    height: 3.95px;
+    right: 8.5%;
+    top: 42%;
+    font-size: 20px;
+    color: #595959;
+    border: none;
+}
+
+/* navbar2 */
+
+.navbar2{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    background-color: #233A6C;
+    color: white;
+    height: 7%;
+    font-size: 20px;
+}
+
+/* .navbar2-links{
+    height: 50px;
+    position: absolute;
+    left: 20%;
+} */
+
+.navbar2 .Product a{
+    width: 15%;
+    position: absolute;
+    left: 12.5%;
+    top: 20%;
+color: #E5E5E5;
+}
+
+.navbar2 .Mobile_Apps a{
+    width: 15%;
+    position: absolute;
+    left: 22.5%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 .Merchants a{
+    width: 15%;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 .Publishers a{
+    width: 15%;
+    position: absolute;
+    left: 47.5%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 .About_Us a{
+    width: 15%;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 .Contact_Us a{
+    width: 15%;
+    position: absolute;
+    left: 72.5%;
+    top: 20%;
+    color: #E5E5E5;
+}
+
+.navbar2 #active{
+    font-weight: bolder;
+}
+
+.sidebar{
+    position: absolute;
+width: 9.21875%;
+height: 966px;
+left: 8.984%;
+top: 20%;
+
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: Roboto;
+font-style: bold;
+font-weight: bold;
+font-size: 20px;
+line-height: 16px;
+
+}
+
+.sidebar a{
+    color: #595959;
+
+}
+
+
+
+.sidebar #sidebar-logo{
+    float: center;
+    margin-top: 5px;
+    margin-left: 8.5px;
+    width: 88%;
+}
+
+.sidebar .grid-img{
+    position: absolute;
+width: 24px;
+height: 24.41px;
+left: 45%;
+top: 140px;
+
+}
+
+.sidebar #Dashboard{
+    position: absolute;
+    top: 179px;
+    left: 17%;
+}
+
+.sidebar .fa-bullhorn{
+    position: absolute;
+    left: 40%;
+    top: 239px;
+    font-size: 30px;
+    transform: rotate(-24.82deg);
+}
+
+.sidebar #Campaign{
+    position: absolute;
+    left: 20%;
+    top: 278px;
+}
+
+.sidebar .fa-user{
+    position: absolute;
+    left: 42%;
+    top: 340px;
+width: 30px;
+height: 35px;
+font-size: 30px;
+color: #595959;
+}
+
+.sidebar #Profile{
+    position: absolute;
+    top: 386px;
+    left: 30%;
+}
+
+.sidebar #Report-img{
+    position: absolute;
+    left: 42%;
+    top: 440px;
+width: 30px;
+height: 35px;
+font-size: 30px;
+color: #595959;
+}
+
+.sidebar #Report{
+    position: absolute;
+    top: 490px;
+    left: 30%;
+}
+
+.sidebar #Traffic-img{
+    position: absolute;
+width: 34px;
+height: 34.41px;
+left: 40%;
+top: 550px;
+
+}
+
+.sidebar #Traffic{
+    position: absolute;
+    top: 600px;
+    left: 30%;
+}
+
+.sidebar #Coupan-img{
+    position: absolute;
+width: 33.3px;
+height: 23.3px;
+left: 40%;
+top: 660px;
+}
+
+.sidebar #Coupan{
+    position: absolute;
+    top: 700px;
+    left: 30%;
+}
+
+.sidebar .fa-cog{
+    font-size: 33px;
+    position: absolute;
+    left: 39%;
+    top: 760px;
+}
+
+.sidebar #Settings{
+    position: absolute;
+    left: 27%;
+    top: 810px;
+}
+
+.sidebar .active{
+    color: #D00000;
+}
+
+
+/* Sidebar ends */
+
+/* Card for content */
+.card{
+    position: absolute;
+    top: 20%;
+    left: 19.375%;
+    
+    background: #FFFFFF;
+box-shadow: -4px 0px 4px rgba(89, 89, 89, 0.21), 2px 4px 5px rgba(0, 0, 0, 0.25);
+    width: 71.5625%;
+    height: 1461px;
+}
+
+.card .add-new-coupan{
+    background: #FCA311;
+    color: #233A6C;
+    position: absolute;
+    width: 17.14%;
+    height: 32px;
+    left: 1.96%;
+    top: 20px;
+    font-weight: 700;
+}
+
+.card .search-coupan{
+    position: absolute;
+width: 40.17%;
+height: 32px;
+top: 20px;
+left: 58.18%;
+padding: 0%;
+border: 1px solid #BBBBBB;
+box-sizing: border-box;
+
+}
+
+.card .search-coupan .dropdown-toggle{
+    background-color: blue;
+    
+}
+
+.card .search-coupan .btn-primary{
+    background: #E0E0E0;
+    border: none;
+    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 26.63%;
+    color: #233A6C;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.card .search-coupan .input-search{
+    
+    position: absolute;
+width: 60%;
+height: 100%;
+left: 26.64%;
+top: 0%;
+padding: 2px;
+font-family: cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+border: none;
+line-height: 16px;
+}
+
+.card .search-coupan .btn-secondary{
+    background-color: #FFB400;
+    border-radius: 0px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 13%;
+    height: 100%;
+    border: none;
+}
+
+.card .search-coupan .btn-secondary .fa-search{
+ color:  #233A6C;
+}
+
+.card .Track_ongoing_coupans{
+    position: absolute;
+    top: 52px;
+    width: 100%;
+    height: 484px;
+}
+
+.card .Track_ongoing_coupans #heading{
+    position: absolute;
+    top: 10px;
+    left: 1.96%;
+    width: 27.18%%;
+    height: 19px;
+    font-weight: 500;
+font-size: 20px;
+
+color: #595959;
+}
+
+
+.card .Track_ongoing_coupans .chart-box{
+    position: absolute;
+    top: 41px;
+    left: 1.96%;
+    height: 364px;
+    width: 95.96%;
+    background: #FAFAFA;
+/* opacity: 0.7; */
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
+}
+
+.card .Track_ongoing_coupans .chart-box .btns{
+    width: 19.91%;
+    height: 100%;
+}
+
+.card .Track_ongoing_coupans .chart-box .btns button{
+    height: 33.333%;
+    width: 100%;
+    background: #F4F4F4;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+box-shadow: inset -3px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card .Track_ongoing_coupans .chart-box .btns button img
+{
+    float: left;
+    margin-top: 25px;
+    margin-left: 16px;
+    height: 35px;
+    width: 40px;
+}
+
+.card .Track_ongoing_coupans .chart-box .btns #active{
+    background: #FAFAFA;
+    opacity: 0.7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
+}
+
+.card .Track_ongoing_coupans .chart-box .btns #num1,
+.card .Track_ongoing_coupans .chart-box .btns #num2,
+.card .Track_ongoing_coupans .chart-box .btns #num3
+{
+    position: absolute;
+    left: 82px;
+    height: 36px;
+    font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #233A6C;
+}
+.card .Track_ongoing_coupans .chart-box .btns #num1{
+    top: 27px;
+}
+.card .Track_ongoing_coupans .chart-box .btns #num2{
+    top: 149px;
+}
+.card .Track_ongoing_coupans .chart-box .btns #num3{
+    top: 272px;
+}
+
+.card .Track_ongoing_coupans .chart-box .btns  #heading1,
+.card .Track_ongoing_coupans .chart-box .btns #heading2,
+.card .Track_ongoing_coupans .chart-box .btns #heading3
+{
+    
+    height: 42px;
+    font-family: Poppins;
+font-style: normal;
+    font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+color: #595959;
+
+}
+
+.card .Track_ongoing_coupans .chart-box #Discount{
+    position: absolute;
+    top: 22px;
+    left: 63.94%;
+    width: 16.38%;
+height: 29px;
+border: 1px solid #595959;
+border-radius: 0;
+box-sizing: border-box;
+color: #595959;
+background-color:transparent;
+}
+
+.card .Track_ongoing_coupans .chart-box #time-prd{
+    position: absolute;
+    top: 22px;
+    left: 81.45%;
+    width: 16.38%;
+height: 29px;
+border: 1px solid #595959;
+border-radius: 0;
+box-sizing: border-box;
+color: #595959;
+background-color:transparent;
+}
+
+.card .Track_ongoing_coupans .chart-box .chart{
+    position: absolute;
+    left: 20.5%;
+    top: 87px;
+}
+
+
+.card .Track_ongoing_coupans .chart-box #chart_div{
+    position: absolute;
+    left: 31.23%;
+    top: 0px;
+    width: 65.89%;
+    height: 356px;
+}
+
+.card .Track_ongoing_coupans .chart-box #save-btn{
+    width: 22px;
+    height: 22px;
+    left: 91.35%;
+    top: 328px;
+}
+
+.card .Track_ongoing_coupans .chart-box #download-btn{
+    width: 29px;
+    height: 29px;
+    left: 94.77%;
+    top: 328px;
+}
+
+/* Table starts */
+.card .Track_Coupans{
+    height: 798px;
+    width: 100%;
+    position: absolute;
+    top: 480px;
+}
+
+.card .Track_Coupans #heading{
+    position: absolute;
+    top: 10px;
+    left: 1.96%;
+    width: 27.18%%;
+    height: 19px;
+    font-weight: 500;
+font-size: 20px;
+
+color: #595959;
+}
+
+.card .Track_Coupans .All-coupans{
+    position: absolute;
+    top: 54px;
+    left: 1.96%;
+    height: 834px;
+    width: 97.16%;
+    background: #F7F7F7;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
+}
+
+.card .Track_Coupans .Track_Coupans-table{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 744px;
+    width: 100%;
+    background: #F7F7F7;
+/* opacity: 0.7; */
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+/* backdrop-filter: blur(4px); */
+border-radius: 0px;
+}
+
+.card .Track_Coupans .Track_Coupans-table #header-row{
+    height: 51px;
+    width: 100%;
+}
+
+.card .Track_Coupans .Track_Coupans-table th{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 21px;
+text-align: right;
+color: #384D7A;
+border: 1px solid #C4C4C4;
+height: 51px;
+text-align: center;
+}
+
+.card .Track_Coupans .Track_Coupans-table th img{
+    width: 20px;
+height: 20px;
+}
+
+.card .Track_Coupans .Track_Coupans-table td{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+text-align: right;
+color: #595959;
+border: 1px solid #C4C4C4;
+height: 57px;
+text-align: center;
+}
+
+.card .Track_Coupans .Track_Coupans-table button{
+    border: none;
+    width: 60%;
+    margin: 5px;
+}
+
+.card .Track_Coupans .Track_Coupans-table td img{
+    width: 100%;
+height: 20.23px;
+}
+.card .Track_Coupans .Track_Coupans-table #col1{
+    width: 20px;
+    height: 51px;
+    border-right: 1px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+
+
+.card .Track_Coupans  #View_All{
+    position: absolute;
+    top: 743px;
+    left: 2.36%;
+    width: 95.96%;
+    height: 57px;
+    background: #FBFBFB;
+border: 1px solid #BBBBBB;
+box-sizing: border-box;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #14213D;
+
+}
+
+.card .Create_new_coupan{
+    position: absolute;
+    bottom: 28px;
+    left: 40%;
+    border: none;
+}
+
+.card .Track_Coupans hr{
+    position: absolute;
+    top: 815px;
+}
+
+/* page-footer */
+
+.page-footer{
+    position: absolute;
+width: 100%;
+height: 368px;
+left: 0px;
+top: 1654px;
+
+background: #233A6C;
+}
+
+.page-footer .fa-facebook-square,
+.page-footer .fa-twitter-square,
+.page-footer .fa-instagram
+{
+    position: absolute;
+    top: 23.985%;
+    color: #E5E5E5;
+    
+    font-size: 35px;
+}
+
+.page-footer .fa-facebook-square{
+    left: 8.8%;
+}
+
+.page-footer .fa-twitter-square{
+    left: 11.69%;
+}
+
+.page-footer .fa-instagram{
+    left: 14.654%;
+}
+
+.page-footer .fa-linkedin-in{
+    position: absolute;
+    left: 17.62%;
+    top: 23.985%;
+    background-color: #E5E5E5;
+    color: #233A6C;
+    font-size: 28px;
+    width: 2.1%;
+    height: 8.4%;
+    border-radius: 3px;
+    padding: 1.5px;
+
+}
+
+.page-footer .Email{
+    position: absolute;
+    left: 8.8%;
+    top: 39.656%;
+    width: 15.72%;
+    height: 9.14%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #E5E5E5;
+}
+
+.page-footer .Get_our_app{
+    position: absolute;
+    left: 8.8%;
+    top: 59.656%;
+    width: 6.546%;
+    height: 1.65%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    color: #E5E5E5;
+    
+}
+
+.page-footer #app1
+{
+    position: absolute;
+    top: 60.5%;
+    left: 16%;
+}
+
+.page-footer #app2
+{
+    position: absolute;
+    top: 60.5%;
+    left: 18%;   
+}
+
+.page-footer .Company,
+.page-footer .Quick_link,
+.page-footer .Policy
+{
+    position: absolute;
+    top: 10%;
+    color: #E5E5E5;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 23.85px;
+    line-height: 27px;
+}
+
+.page-footer .Company a,
+.page-footer .Quick_link a,
+.page-footer .Policy a
+{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    padding: 2px;
+    
+    color: #E5E5E5;
+}
+
+.page-footer .Company{
+    left: 40%;
+}
+.page-footer .Quick_link{
+    left: 60%;
+}
+.page-footer .Policy{
+    left: 80%;
+}
+
+.page-footer .footer-copyright{
+    position: absolute;
+width: 100%;
+height: 64px;
+left: 0px;
+bottom: 0%;
+
+background: #14213D;
+color: #FFFFFF;
+}
+
+.page-footer .footer-copyright a{
+    color: #FFFFFF;
+}
+/* page footer ends */
+
